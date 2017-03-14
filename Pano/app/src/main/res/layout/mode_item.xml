@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:minHeight="60dp">
+
+    <TextView
+        android:id="@+id/mode_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="自定义模式"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/mode_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:text="详情"
+        android:textColor="@color/backBtnColor"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/mode_select"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_toLeftOf="@+id/mode_detail"
+        android:layout_toStartOf="@+id/mode_detail"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_selected"
+        android:visibility="invisible" />
+</RelativeLayout>

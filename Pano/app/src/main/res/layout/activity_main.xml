@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBg"
+    tools:context="com.vb.pano.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bar" />
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/backBtnColor"
+            android:background="@android:color/transparent"
+            android:text="返回"
+            />
+        <Button
+            android:id="@+id/localGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="查看本机相册"
+            android:textColor="@color/backBtnColor"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/vbpano_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="240dp">
+        <LinearLayout
+            android:id="@+id/main_devicesLayout"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"></LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/main_searchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:text="@string/main_btn_search"
+        />
+</LinearLayout>

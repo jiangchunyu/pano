@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    tools:context="com.vb.pano.HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/home_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bar" />
+        <ImageButton
+            android:id="@+id/uploadImg"
+            android:src="@drawable/ic_menu_gallery"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="(不可用)"
+            android:visibility="visible"
+            android:layout_toRightOf="@+id/title"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/home_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tabBgColor"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <RadioButton
+            android:id="@+id/photo"
+            android:checked="true"
+            style="@style/CustomRadioButton"
+            android:text="拍照" />
+        <RadioButton
+            android:id="@+id/setting"
+            style="@style/CustomRadioButton"
+            android:text="设置" />
+        <RadioButton
+            android:id="@+id/mode"
+            style="@style/CustomRadioButton"
+            android:text="模式" />
+        <RadioButton
+            android:id="@+id/gallery"
+            style="@style/CustomRadioButton"
+            android:text="相册" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/home_topbar"
+        android:layout_above="@+id/home_bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

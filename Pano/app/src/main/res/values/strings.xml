@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">全景相机</string>
+    <string name="login_wifiname_hint">WI-FI名称</string>
+    <string name="login_wifipwd_hint">WI-FI密码</string>
+    <string name="login_btn_text">连接</string>
+    <string name="main_btn_search">刷新</string>
+    <string name="login_toast_msg">请到设置页面打开wifi</string>
+    <string name="login_alert_title">选择需要连接的wifi</string>
+    <string name="login_toast_nowifi">附近没有可用的wifi</string>
+    <string name="login_check_toast">用户名和密码不能为空</string>
+    <string name="login_getjson_toasterror">相机连接wifi失败</string>
+    <string name="login_changewifi_toasterror">返回失败，相机切换热点切换异常</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>

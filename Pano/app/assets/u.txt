@@ -1,0 +1,91 @@
+{
+  "result": "0", 
+  "msg": "成功",
+  "data": {
+    "totalCount": 2,
+    "totalPage": 1,
+    "searchResult": [
+      {
+        "panoId": "34D43540C33D4F94AFC1520EC3919FFB",
+        "uploadTime": 0,
+        "panoName": null,
+        "uploadPercent": 0,
+        "captureTime": 1483500713.039,
+        "uploadStatus": 0
+      },
+      {
+        "panoId": "D0145C88FE56461697E51A690D35CC05",
+        "uploadTime": 1483500701.268741,
+        "panoName": "欢迎莅临微景天下！",
+        "uploadPercent": 100,
+        "captureTime": 1483499695.647,
+        "uploadStatus": 3
+      },
+      {
+        "panoId": "34D43540C33D4F94AFC1520EC3919FFB",
+        "uploadTime": 0,
+        "panoName": null,
+        "uploadPercent": 60,
+        "captureTime": 1483500713.039,
+        "uploadStatus": 1
+      },
+      {
+        "panoId": "D0145C88FE56461697E51A690D35CC05",
+        "uploadTime": 1483500701.268741,
+        "panoName": "欢迎莅临微景天下！",
+        "uploadPercent": 100,
+        "captureTime": 1483499695.647,
+        "uploadStatus": 9
+      },
+      {
+        "panoId": "34D43540C33D4F94AFC1520EC3919FFB",
+        "uploadTime": 0,
+        "panoName": null,
+        "uploadPercent": 0,
+        "captureTime": 1483500713.039,
+        "uploadStatus": 2
+      },
+      {
+        "panoId": "D0145C88FE56461697E51A690D35CC05",
+        "uploadTime": 1483500701.268741,
+        "panoName": "欢迎莅临微景天下！",
+        "uploadPercent": 100,
+        "captureTime": 1483499695.647,
+        "uploadStatus": 3
+      },
+      {
+        "panoId": "34D43540C33D4F94AFC1520EC3919FFB",
+        "uploadTime": 0,
+        "panoName": null,
+        "uploadPercent": 0,
+        "captureTime": 1483500713.039,
+        "uploadStatus": 0
+      },
+      {
+        "panoId": "D0145C88FE56461697E51A690D35CC05",
+        "uploadTime": 1483500701.268741,
+        "panoName": "欢迎莅临微景天下！",
+        "uploadPercent": 100,
+        "captureTime": 1483499695.647,
+        "uploadStatus": 3
+      },
+      {
+        "panoId": "34D43540C33D4F94AFC1520EC3919FFB",
+        "uploadTime": 0,
+        "panoName": null,
+        "uploadPercent": 0,
+        "captureTime": 1483500713.039,
+        "uploadStatus": 0
+      },
+      {
+        "panoId": "D0145C88FE56461697E51A690D35CC05",
+        "uploadTime": 1483500701.268741,
+        "panoName": "欢迎莅临微景天下！",
+        "uploadPercent": 100, 
+        "captureTime": 1483499695.647, 
+        "uploadStatus": 3
+      }
+    ], 
+    "size": 10
+  }
+}
